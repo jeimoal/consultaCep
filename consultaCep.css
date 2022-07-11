@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to left, rgba(102, 255, 255, 0), rgba(102, 255, 255, 1));
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 45%;
+	padding: 2rem;
+	background-color: lightblue;
+	box-shadow: -10px 10px 15px lightgray;
+}
+
+.minhaDiv {
+	
+}
+
+.entradas p {
+	text-transform: uppercase;
+}
+
+.enderecos {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	width: 90%;
+	height: 10%;
+	margin: 1.3rem 0;
+	padding: 0.5rem;
+	background-color: white;
+	border-radius: 10px;
+}
