@@ -7,6 +7,8 @@ const cep = document.getElementById('cep');
 const btnEnviar = document.getElementById('enviar');
 const btnNovaConsulta = document.getElementById('novaConsulta');
 const cepDigitado = document.getElementById('cepDigitado');
+cepDigitado.focus();
+
 
 //Dá fetch na API, recebe o arquivo em .json e preenche os campos(além de desabilitar alguns)
 btnEnviar.onclick = function () {
@@ -47,4 +49,5 @@ btnNovaConsulta.onclick = function () {
 	cepDigitado.disabled = false;
 	cepDigitado.value = "";
 	btnNovaConsulta.hidden = true;
+	cepDigitado.focus();
 }
