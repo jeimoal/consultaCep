@@ -1,2 +1,4 @@
 # consultaCep
-Formulário de consulta CEP, consumindo a API do site Postmon.
+Consulta CEP, consumindo a API do site Postmon.
+
+Disponível em: https://jeimoal.github.io/consultaCep/
