@@ -14,15 +14,15 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 45%;
+	max-width: 40%;
+	min-height: 45%;
 	padding: 2rem;
 	background-color: lightblue;
 	box-shadow: -10px 10px 15px lightgray;
 }
 
 .minhaDiv {
-	
+
 }
 
 .entradas p {
@@ -34,7 +34,7 @@ body {
 	align-items: center;
 	text-align: left;
 	width: 90%;
-	height: 10%;
+	height: 5vh;
 	margin: 1.3rem 0;
 	padding: 0.5rem;
 	background-color: white;
